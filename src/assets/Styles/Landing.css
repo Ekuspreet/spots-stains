@@ -1,0 +1,12 @@
+hr{
+    height: 0.5px;
+    background-color: var(--accent);
+    margin: 0.2em 2vw;
+
+}
+.body{
+    /* background-color: var(--contrast); */
+    display: flex;
+flex-direction: column;
+/* width: 90%; */
+}
