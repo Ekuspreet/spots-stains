@@ -1,6 +1,5 @@
 import React from 'react';
-import heroBg from '../assets/Media/herobg.jpg';
-import "../assets/Styles/components.css";
+import "../assets/Styles/searchbar.css";
 
 export const Search = () => {
   return (

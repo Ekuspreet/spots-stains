@@ -1,0 +1,23 @@
+.container{
+    height: auto;
+    background-color: var(--contrast);
+    margin: 0.3em;
+    display: flex;
+
+}
+
+.blogdisplay{
+    height: 10em;
+    overflow: hidden;
+}
+
+
+img{
+    
+    height: 15em;
+}
+
+
+
+
+
