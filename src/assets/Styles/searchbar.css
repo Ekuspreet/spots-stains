@@ -54,18 +54,28 @@
     margin-left: -2em;
     /* border: 1px solid var(--contrast); */
 
-    width:6em;
+    width:7em;
     font-size: max(10pt,1vw);
     transition: border-bottom-left-radius,
     border-top-left-radius
     0.4s
     ease;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
 .searchbar button:hover{
     border-bottom-left-radius: 8px;
     border-top-left-radius: 30px;
+}
+
+.searchbar button lord-icon{
+    width: 25px;
+    color: var(--accent);
 }
 @media screen and (max-width : 730px) {
     .searchbar{

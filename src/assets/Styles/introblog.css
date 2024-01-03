@@ -1,20 +1,98 @@
 .container{
     height: auto;
-    background-color: var(--contrast);
-    margin: 0.3em;
+    background-color: var(--soft);
+    margin: 0.6em 3em;
     display: flex;
-
+    flex-direction: column;
+    padding: 1em;
+    gap: 0.4em;
+}
+.blogs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6em;
+    justify-content: flex-start;
 }
 
-.blogdisplay{
-    height: 10em;
+
+
+.Card{
+    height: auto;
+    flex-wrap: wrap;
     overflow: hidden;
+    
+
 }
 
 
-img{
+.Card img{
+    /* position: absolute; */
+    /* z-index: ;/ */
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    /* border-bottom-right-radius: 6px; */
+}
+
+
+
+
+.heading{
+    position: absolute;
+
+ transform: translateY(170px);
     
-    height: 15em;
+}
+.time{
+    position: absolute;
+    font-size: 10pt;
+    background-color: var(--contrast);
+    color: var(--accent);
+    font-weight: bold;
+    /* position: relative; */
+    height: 1.5em;
+    /* width: auto; */
+    /* top: 14px; */
+    padding: 1px 5px 1px 1px;
+    transform: translateY(0px);
+    /* margin-left: 2px; */
+    /* width: 55%; */
+    display: flex;
+    gap: 2px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    align-items: center;
+    /* justify-content: center; */
+    
+}
+
+.time lord-icon{
+    margin-top: 1px;
+    width: 20px;
+    
+}
+@media screen and (max-width : 730px) {
+img{
+    height: 100px;
+    width: 180px;
+}
+
+.container{
+    margin: 0.4em 0.8em;
+    padding: 0.4em;
+}
+.blogs{
+    gap: 0.4em;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0.5;
+}
 }
 
 

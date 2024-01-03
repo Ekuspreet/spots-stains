@@ -10,7 +10,13 @@ export const Search = () => {
       <div className="searchbar">
 
         <input type="text" id = "query" name = "query" placeholder='Search for blogs here'/>
-        <button><i class="fa-solid fa-magnifying-glass fa-xs"></i>  <text>Search</text></button>
+        <button>
+          <lord-icon
+    src="https://cdn.lordicon.com/unukghxb.json"
+    trigger="click"
+    stroke = "bold"
+    colors="primary:#527354,secondary:#527354">
+</lord-icon> <text>Search</text></button>
       </div>
     </div>
   )

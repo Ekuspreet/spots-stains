@@ -10,3 +10,21 @@ hr{
 flex-direction: column;
 /* width: 90%; */
 }
+heading{
+    font-family: var(--secondary);
+    font-size: 16pt;
+    font-weight: bold;
+    color: var(--accent);
+}
+
+@media screen and (max-width : 730px){
+    heading{
+        font-family: var(--secondary);
+        font-size: 13pt;
+        
+        text-align: center;
+        font-weight: bold;
+        color: var(--accent);
+    }
+    
+}

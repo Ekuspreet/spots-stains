@@ -9,7 +9,7 @@
     
     /* color: var(--black); */
 
-    /* font-family: var(--primary); */
+    font-family: var(--primary);
     
 
 }
@@ -22,8 +22,27 @@ html{
     --primary : "Mulish";
     --secondary : "Philosopher";
     --accent : #527354;
-    --contrast : #f2eac6;
+    --contrast : #f6e9c7;
+    --soft : #f7f6f1;
     --white : #f5f5f5;
     --black  : #2e3233;
 
+}
+
+heading{
+    font-family: var(--secondary);
+    font-size: 16pt;
+    font-weight: bold;
+    color: var(--accent);
+}
+
+@media screen and (max-width : 730px){
+    heading{
+        font-family: var(--secondary);
+        font-size: 13pt;
+        text-align: center;
+        font-weight: bold;
+        color: var(--accent);
+    }
+    
 }
