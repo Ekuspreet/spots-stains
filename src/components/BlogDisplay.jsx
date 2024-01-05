@@ -10,7 +10,7 @@ export const BlogDisplay = ({ heading, imgurl, time }) => {
 
       <div className="information">
         <div className="time">
-          {" "}
+          
           <lord-icon
             src="https://cdn.lordicon.com/kgdqzapd.json"
             trigger="hover"
