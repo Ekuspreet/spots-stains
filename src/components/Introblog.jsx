@@ -6,27 +6,30 @@ export const Introblog = () => {
   return (
     <>
 
+{/* script for random images */}
+
+
     <div className="container">
       <heading>Featured Blogs</heading>
     <div className="blogs">
     <BlogDisplay
       heading = "The Newest Blog"
-      imgurl = {img1}
+      imgurl = "https://picsum.photos/400/600.jpg"
       time = "5"
     />
     <BlogDisplay
       heading = "The Newest Blog"
-      imgurl = {img1}
+      imgurl = "https://picsum.photos/800/400.jpg"
       time = "7"
     />
     <BlogDisplay
       heading = "The Newest Blog"
-      imgurl = {img1}
+      imgurl = "https://picsum.photos/1200/900.jpg"
       time = "5"
     />
     <BlogDisplay
       heading = "The Newest Blog"
-      imgurl = {img1}
+      imgurl = "https://picsum.photos/400.jpg"
       time = "5"
     />
 
