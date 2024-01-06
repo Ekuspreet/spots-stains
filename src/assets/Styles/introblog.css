@@ -29,10 +29,13 @@
    /* align-items: flex-start; */
 
    /* justify-content: space-around; */
+   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.197) ;
    
-   /* width: 100%;  */
+   width: 100%; 
+
    height: 10em;
-   
+   /* padding: 1%; */
+   overflow: hidden;
 }
 .information{
     height: 100%;
@@ -59,9 +62,6 @@
     /* border-top-left-radius: 10px; */
     /* border-bottom-right-radius: 6px; */
 }
-.Card{
-    overflow: hidden;
-}
 
 .timeinfo{
     display: none;
@@ -73,7 +73,6 @@
     padding: 1px 5px 1px 1px;
     background-color: var(--soft);
     border-radius: 10px;
-    cursor: url('data:image/x-icon;base64,AAACAAEAICAQAAgACADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAAfsLyAAsfeAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIiIAAAAAAAAAAAAAAAACIhESIgAAAAAAAAAAAAAAIhERERIgAAAAAAAAAAAAAiERERERIgAAAAAAAAAAAAIRERERERIAAAAAAAAAAAAiERERERESIAAAAAAAAAAAIRERERERESAAAAAAAAAAACEQAAAREREgAAAAAAAAAAAhEREQERERIAAAAAAAAAAAIhEREBEREiAAAAAAAAAAAAIRERARERIAAAAAAAAAAAACIREQEREiAAAAAAAAAAAAACIREBESIAAAAAAAAAAAAAACIhESIgAAAAAAAAAAAAAAAAIiIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//////////////////////////////////////////////////////////////////////////////////////B////AH///gA///wAH//8AB//+AAP//gAD//4AA//+AAP//gAD//8AB///AAf//4AP///AH///8H////////w=='), auto;
     display: flex;
     width: auto;
 }
@@ -97,7 +96,7 @@
     border-radius: 50%;
     /* border-bottom-left-radius: 10px; */
     /* align-items: center; */
-    /* justify-content: center; */
+    justify-content: center;
     height: 1.5em;
 }
 
@@ -108,18 +107,24 @@
 }
 .heading{
     color: var(--accent);
-    padding: 3%;
-    
-    background-color: transparent;
+    padding: 3px;    
+    font-size: 14px;
+    background:linear-gradient(to bottom right,var(--soft),var(--contrast));
     /* backdrop-filter: blur(2px); */
     z-index: 2;
+    margin: 1%;
     font-weight: bold;
-    border-radius: 10px;
+    width: 90%;
+    /* width: auto; */
+    /* border-radius: 10px; */
     outline: 1px solid transparent;
+    /* border-top-left-radius: 5px; */
+    /* border-top-right-radius: 5px; */
 }
 .Card:hover{
     cursor: pointer;
-    box-shadow: 0px 5px 15px var(--accent);
+    /* border-left: 3px solid var(--accent) ; */
+    /* box-shadow: 10px 15px 0px var(--accent); */
 }
 .Card:hover img{
     transform: scale(1.2);
