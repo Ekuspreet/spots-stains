@@ -9,6 +9,8 @@ export const BlogDisplay = ({ heading, imgurl, time }) => {
 
 
       <div className="information">
+        
+        
         <div className="time">
           
           <lord-icon
@@ -19,7 +21,6 @@ export const BlogDisplay = ({ heading, imgurl, time }) => {
           ></lord-icon>
           <div className="timeinfo">{time} Minute Read.</div>
         </div>
-
         <div className="heading">{heading}</div>
       </div>
     </div>

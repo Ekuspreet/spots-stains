@@ -17,6 +17,14 @@
 html{
     zoom: 120%;
 }
+
+.container{
+
+    background-color: var(--soft);
+    margin: 0.6em 3em;
+    padding: 1em;
+    
+}
 :root{
     --script: "Berkshire Swash";
     --primary : "Mulish";

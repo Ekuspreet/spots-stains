@@ -1,10 +1,7 @@
 .container{
-    height: auto;
-    background-color: var(--soft);
-    margin: 0.6em 3em;
+    
     display: flex;
     flex-direction: column;
-    padding: 1em;
     z-index: 0;
     gap: 0.4em;
 }
@@ -106,21 +103,26 @@
     
 }
 .heading{
+    display: inline;
+
     color: var(--accent);
-    padding: 3px;    
+    padding: 1%;    
     font-size: 14px;
-    background:linear-gradient(to bottom right,var(--soft),var(--contrast));
+    background-color:var(--soft);
+    /* background: linear-gradient(to top right, var(--contrast),var(--soft)); */
     /* backdrop-filter: blur(2px); */
     z-index: 2;
     margin: 1%;
     font-weight: bold;
     width: 90%;
+    /* background-clip: text; */
     /* width: auto; */
     /* border-radius: 10px; */
     outline: 1px solid transparent;
     /* border-top-left-radius: 5px; */
     /* border-top-right-radius: 5px; */
 }
+
 .Card:hover{
     cursor: pointer;
     /* border-left: 3px solid var(--accent) ; */
