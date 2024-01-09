@@ -18,10 +18,14 @@
     /* background-color: var(--soft); */
     border: 2px solid var(--contrast);
     color: var(--accent);
+    transition: background-color 0.5s ease ;
+
 }
 .categoryname{
     font-family: var(--primary);
     font-weight: 800;
-
+}
+.category:hover{
+    background-color: var(--contrast);
 }
 

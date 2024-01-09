@@ -36,6 +36,33 @@ export const Categories = () => {
         iconurl = "suuelqth"/>
      
      
+     
+
+        <Category 
+        name = "Life"
+        
+        iconurl = "suuelqth"/>
+     
+     
+     
+
+        <Category 
+        name = "Melancholy"
+        
+        iconurl = "suuelqth"/>
+     
+     
+     
+
+        <Category 
+        name = "Emotions"
+        
+        iconurl = "suuelqth"/>
+     
+     
+     
+
+     
 
       
       </div>
