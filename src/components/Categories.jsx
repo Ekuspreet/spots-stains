@@ -12,43 +12,32 @@ export const Categories = () => {
 
         <Category 
         name = "All Blogs"
-        bgcol = "#F4FDFF"
-        col = "040403"
-        iconurl = "yqiuuheo"/>
+                iconurl = "yqiuuheo"/>
      
      
 
         <Category 
         name = "Travel"
-        bgcol = "#efc9af"
-        col = "#104c91"
+        
         iconurl = "zzjjvkam"/>
      
      
 
         <Category 
         name = "Horror"
-        bgcol = "#0c0f0a"
-        col = "#E80002"
-        iconurl = "ribxmuoc"/>
+        
+        iconurl = "dhxiouol"/>
      
      
 
         <Category 
-        name = "Horror"
-        bgcol = "black"
-        col = "white"
-        iconurl = ""/>
+        name = "Science"
+        
+        iconurl = "suuelqth"/>
      
      
 
-        <Category 
-        name = "Horror"
-        bgcol = "black"
-        col = "white"
-        iconurl = ""/>
-     
-     
+      
       </div>
     
     

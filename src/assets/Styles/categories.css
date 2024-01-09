@@ -15,9 +15,13 @@
     /* justify-content: space-between; */
     /* border-radius: 10px; */
     cursor: pointer;
+    /* background-color: var(--soft); */
+    border: 2px solid var(--contrast);
+    color: var(--accent);
 }
 .categoryname{
     font-family: var(--primary);
-    font-weight: bold;
+    font-weight: 800;
 
 }
+
