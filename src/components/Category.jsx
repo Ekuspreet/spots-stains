@@ -1,8 +1,6 @@
 import React from "react";
 import "../assets/Styles/categories.css";
 export const Category = ({ name, iconurl }) => {
-const fs = require("fs");
-
 
   return (
     // <div>Category</div>
